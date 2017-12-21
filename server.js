@@ -1,11 +1,13 @@
 const express = require('express')
-var fs = require('fs');
+const fs = require('fs')
+const bodyParser = require('body-parser')
 const path = require('path') 
 const open = require('open')
 const app = express();  
 const port = 8000;  
 
 app.use(express.static(__dirname + '/public'));
+let urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 const server = app.listen(port, function(err) {  
   if (err) {
@@ -16,3 +18,6 @@ const server = app.listen(port, function(err) {
   }
 });
 
+app.post('/json', urlencodedParser, function(req, res) {
+  console.log(req.body)
+})
