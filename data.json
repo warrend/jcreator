@@ -1,12 +1,8 @@
 {
   "articles": [
     {
-      "title": "NYT",
-      "description": "The Beatles"
-    },
-    {
-      "title": "The Daily Eagle",
-      "description": "Another one"
+      "title": "First pass",
+      "description": "The first pass here"
     }
   ]
 }

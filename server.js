@@ -21,11 +21,18 @@ const server = app.listen(port, function(err) {
 });
 
 app.post('/json', urlencodedParser, (req, res) => {
-  fs.readFile('data.json', 'utf8', (err, data) => {
-    let jfile = JSON.parse(data)
+  if (fs.existsSync('data.json')) {
+    fs.readFile('data.json', 'utf8', (err, data) => {
+      let jfile = JSON.parse(data)
+      jfile.articles.push(req.body)
+      let obj = JSON.stringify(jfile, null, 2)
+      fs.writeFile('data.json', obj)
+    })
+  } else {
+    let jfile = {"articles": []}
     jfile.articles.push(req.body)
     let obj = JSON.stringify(jfile, null, 2)
     fs.writeFile('data.json', obj)
-  })
+  }
   res.redirect('back')
 })
