@@ -1,12 +1,12 @@
 {
   "articles": [
     {
-      "title": "Test",
-      "description": "Test"
+      "title": "NYT",
+      "description": "The Beatles"
     },
     {
-      "title": "Booger",
-      "description": "Booger"
+      "title": "The Daily Eagle",
+      "description": "Another one"
     }
   ]
 }

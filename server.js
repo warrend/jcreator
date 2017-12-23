@@ -20,12 +20,12 @@ const server = app.listen(port, function(err) {
   }
 });
 
-let obj = {articles: []}
-app.post('/json', urlencodedParser, function(req, res) {
-  console.log(req.body)
-  obj.articles.push(req.body)
-  let data = JSON.stringify(obj, null, 2)
-  //res.send(req.body)
-  fs.writeFileSync('data.json', data)
+app.post('/json', urlencodedParser, (req, res) => {
+  fs.readFile('data.json', 'utf8', (err, data) => {
+    let jfile = JSON.parse(data)
+    jfile.articles.push(req.body)
+    let obj = JSON.stringify(jfile, null, 2)
+    fs.writeFile('data.json', obj)
+  })
   res.redirect('back')
 })
