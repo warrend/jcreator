@@ -22,20 +22,33 @@
         <div class="container"
           <div>
             <h1>JCreator</h1>
+            <!-- <form id="adder" method="post" action="/add">
+              <label>
+                Add a Field:
+                <input type="text" name="field" id="field">
+                <input type="submit" value="Add">
+              </label>
+            </form> -->
+            
             <form id="form" method="post" action="/json">
-            <label>
-              Publication:
-              <input type="text" name="title">
-            </label>
-            <label>
-              Description:
-              <textarea type="text" name="description"></textarea>
-            </label>
+              <div id="form-wrapper">
+                <label>
+                  Newspaper:
+                  <input type="text" name="newspaper">
+                </label>
+                <label>
+                  Date:
+                  <input type="text" name="date">
+                </label>
+                <label>
+                  Description:
+                  <textarea type="text" name="description"></textarea>
+                </label>
+              </div>
             <input type="submit" value="Submit">
           </form>
         </div>
         <p id="message"></p>
         <script src="js/main.js"></script>
-
     </body>
 </html>

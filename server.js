@@ -23,10 +23,15 @@ const server = app.listen(port, function(err) {
 app.post('/json', urlencodedParser, (req, res) => {
   if (fs.existsSync('data.json')) {
     fs.readFile('data.json', 'utf8', (err, data) => {
+      console.log(req.body)
       let jfile = JSON.parse(data)
-      jfile.articles.push(req.body)
+      let newArticle = req.body
+      let id = parseInt((jfile.articles[jfile.articles.length - 1].id), 10)
+      newArticle["id"] = (id + 1).toString()
+      jfile.articles.push(newArticle)
       let obj = JSON.stringify(jfile, null, 2)
       fs.writeFile('data.json', obj)
+      id++
     })
   } else {
     let jfile = {"articles": []}

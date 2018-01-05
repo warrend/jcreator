@@ -1,8 +1,263 @@
 {
   "articles": [
     {
-      "title": "First pass",
-      "description": "The first pass here"
+      "id": "1",
+      "newspaper": "Long Island Press",
+      "date": "August 14, 1964",
+      "description": "Screaming teenagers wait for a glimpse of the Beatles at the Hotel Warwick",
+      "featured": "F"
+    },
+    {
+      "id": "2",
+      "newspaper": "Daily News",
+      "date": "February 8, 1964",
+      "description": "Beatles enthusiasts at Kennedy Airport",
+      "featured": "F"
+    },
+    {
+      "id": "3",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "Screaming Teenagers Greet the Beatles (Yeah, Yeah)",
+      "featured": "T"
+    },
+    {
+      "id": "4",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "The Beatles Invade, Complete With Long Hair and Screaming Fans",
+      "featured": "F"
+    },
+    {
+      "id": "5",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "The Beatles",
+      "featured": "G"
+    },
+    {
+      "id": "6",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "The Beatles wave from their suite in the Plaza to their fans outside",
+      "featured": "G"
+    },
+    {
+      "id": "7",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "It's enough to make you cry",
+      "featured": "F"
+    },
+    {
+      "id": "8",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "The sincerest form of flattery",
+      "featured": "F"
+    },
+    {
+      "id": "9",
+      "newspaper": "The New York Times",
+      "date": "February 8, 1964",
+      "description": "Beatles In, Town Knows It",
+      "featured": "F"
+    },
+    {
+      "id": "10",
+      "newspaper": "The Christian Science Monitor",
+      "date": "Unknown",
+      "description": "Beatles...Ahem...a Secret Weapon",
+      "featured": "A"
+    },
+    {
+      "id": "11",
+      "newspaper": "The New York Times",
+      "date": "February 9, 1964",
+      "description": "Now...the Beatles are here!",
+      "featured": "G"
+    },
+    {
+      "id": "12",
+      "newspaper": "Teen Life",
+      "date": "1964",
+      "description": "For you the Beatles are here!",
+      "featured": "G"
+    },
+    {
+      "id": "13",
+      "newspaper": "The Christian Science Monitor",
+      "date": "Unknown",
+      "description": "You can bank on Beatles",
+      "featured": "A"
+    },
+    {
+      "id": "14",
+      "newspaper": "Teen Life",
+      "date": "1964",
+      "description": "Guys Just",
+      "featured": "G"
+    },
+    {
+      "id": "15",
+      "newspaper": "Unknown",
+      "date": "February 12, 1964",
+      "description": "It's Beatles night at Carnegie Hall",
+      "featured": "G"
+    },
+    {
+      "id": "16",
+      "newspaper": "NY Journal American",
+      "date": "February 12, 1964",
+      "description": "Beatles Buzz Tonight at Carengie Hall",
+      "featured": "G"
+    },
+    {
+      "id": "17",
+      "newspaper": "New York Post",
+      "date": "February 13, 1964",
+      "description": "Beatles at Carnegie Hall",
+      "featured": "F"
+    },
+    {
+      "id": "18",
+      "newspaper": "New York Post",
+      "date": "February 13, 1964",
+      "description": "Happy Fan: Happy & Co.",
+      "featured": "F"
+    },
+    {
+      "id": "19",
+      "newspaper": "NY Journal American",
+      "date": "February 11, 1964",
+      "description": "Beatles Take Wing to Washington",
+      "featured": "A"
+    },
+    {
+      "id": "20",
+      "newspaper": "New York Post",
+      "date": "February 12, 1964",
+      "description": "The Beatles Storm the Capital",
+      "featured": "HM"
+    },
+    {
+      "id": "21",
+      "newspaper": "NY Journal American",
+      "date": "February 11, 1964",
+      "description": "Why They Go Wild Over the Beatles",
+      "featured": "A"
+    },
+    {
+      "id": "22",
+      "newspaper": "NY Journal American",
+      "date": "February 11, 1964",
+      "description": "Beatles with Leslie Gould",
+      "featured": "G"
+    },
+    {
+      "id": "23",
+      "newspaper": "NY Journal American",
+      "date": "February 12, 1964",
+      "description": "If You Must Throw Things...",
+      "featured": "H"
+    },
+    {
+      "id": "24",
+      "newspaper": "NY Journal American",
+      "date": "February 12, 1964",
+      "description": "Beatles cartoon",
+      "featured": "G"
+    },
+    {
+      "id": "25",
+      "newspaper": "New York Post",
+      "date": "1964",
+      "description": "Nora Ephron - Harrison",
+      "featured": "H"
+    },
+    {
+      "id": "26",
+      "newspaper": "NY Journal American",
+      "date": "February 11, 1964",
+      "description": "Somehow the Songs Get Written",
+      "featured": "M"
+    },
+    {
+      "id": "27",
+      "newspaper": "NY Journal American",
+      "date": "February 11, 1964",
+      "description": "We are the Beatles",
+      "featured": "M"
+    },
+    {
+      "id": "28",
+      "newspaper": "New York Post",
+      "date": "1964",
+      "description": "Nora Ephron - Starr",
+      "featured": "S"
+    },
+    {
+      "id": "29",
+      "newspaper": "New York Times",
+      "date": "February 14, 1964",
+      "description": "4,000 Hail Beatles on Arrival in Miami",
+      "featured": "A"
+    },
+    {
+      "id": "30",
+      "newspaper": "New York Daily News",
+      "date": "February 15, 1964",
+      "description": "Yeh! Yeh! And Yo! Ho!",
+      "featured": "G"
+    },
+    {
+      "id": "31",
+      "newspaper": "New York Daily News",
+      "date": "February 15, 1964",
+      "description": "Paul on yacht, Southern Trail",
+      "featured": "M"
+    },
+    {
+      "id": "32",
+      "newspaper": "London Daily Express",
+      "date": "1964",
+      "description": "Cartoon Cavalcade",
+      "featured": "A"
+    },
+    {
+      "id": "33",
+      "newspaper": "NY Journal American",
+      "date": "February 15, 1964",
+      "description": "Suppose Everybody Went Beatlenuts",
+      "featured": "A"
+    },
+    {
+      "id": "34",
+      "newspaper": "Life",
+      "date": "1964",
+      "description": "Beatlemania",
+      "featured": "G"
+    },
+    {
+      "id": "35",
+      "newspaper": "Life",
+      "date": "1964",
+      "description": "Beatlemania",
+      "featured": "F"
+    },
+    {
+      "id": "36",
+      "newspaper": "New York Daily News",
+      "date": "February 7, 1964",
+      "description": "Beatles Here",
+      "featured": "G"
+    },
+    {
+      "id": "37",
+      "newspaper": "The New York Times",
+      "date": "1964",
+      "description": "4 Beatles and How They Grew",
+      "featured": "A"
     }
   ]
 }
